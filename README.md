@@ -1,6 +1,6 @@
 # FastAPI-Student-Data-Endpoint
-This FastAPI application provides an endpoint to fetch and modify student data based on the student ID from a JSON file.
 
+This FastAPI application provides an endpoint to fetch and modify student data based on the student ID from a JSON file.
 
 **Prerequisites**
 
@@ -14,7 +14,7 @@ Uvicorn (optional, for running the application)
 
 Clone the repository:
 
-`git clone https://github.com/nehajalan13/FastAPI-Student-Data-Endpoint`
+`git clone https://github.com/CodeManiac-1/student_FastAPI.git`
 
 `cd your-repo`
 
@@ -46,52 +46,53 @@ The JSON file (Data.json) should contain student data in the following format:
 [
 
     {
-    
+
         "student_id": 31,
-        
+
         "first_name": "Florenza",
-        
+
         "last_name": "Labbet",
-        
+
         "email": "flabbetu@ucoz.ru",
-        
+
         "gender": "Female",
-        
+
         "address": "Apt 1144, Pin - 357668"
-        
+
     },
-    
+
     {
-    
+
         "student_id": 32,
-        
+
         "first_name": "Hall",
-        
+
         "last_name": "Sudy",
-        
+
         "email": "hsudyv@yale.edu",
-        
+
         "gender": "Male",
-        
+
         "address": "Suite 42, Pin - 674678+"
-        
+
     },
-    
+
     {
-    
+
         "student_id": 33,
-        
+
         "first_name": "Lenci",
-        
+
         "last_name": "Cunnane",
-        
+
         "email": "lcunnanew@umn.edu",
-        
+
         "gender": "Male",
-        
+
         "address": "Apt 672"
-        
+
     }
+
 ]
 
 **Endpoint Details**
@@ -99,7 +100,6 @@ The JSON file (Data.json) should contain student data in the following format:
 GET /student_id: Fetches student details based on the provided student_id.
 
 POST /student_id: Adds a new student with the provided student_id and details to the JSON file.
-
 
 **License**
 
